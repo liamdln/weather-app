@@ -1,6 +1,6 @@
 # weather-app
 
-Displays weather in a given city, build using the Vue.js framework.
+Displays weather in a given city, built using the Vue.js framework.
 
 ## Running Locally
 

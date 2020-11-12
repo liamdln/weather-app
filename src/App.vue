@@ -40,7 +40,7 @@ export default {
   name: "App",
   data() {
     return {
-      apiKey: "",
+      apiKey: "token_here",
       urlBase: "https://api.openweathermap.org/data/2.5/",
       location: "",
       weather: {},
