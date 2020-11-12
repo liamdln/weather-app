@@ -1,24 +1,25 @@
 # weather-app
 
-## Project setup
-```
-npm install
+Displays weather in a given city, build using the Vue.js framework.
+
+## Running Locally
+
+To run locally, you'll first need to sign up for a token [from here](https://openweathermap.org/api).
+
+Then insert your token into the `App.vue` file at this point:
+
+```js
+apiKey: "token_here",
 ```
 
-### Compiles and hot-reloads for development
-```
+Then find your closest terminal window and type
+
+```sh
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Then navigate to `localhost:3000` and search for a city!
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Thanks to
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Tyler Potts](https://www.youtube.com/channel/UCBBGM84ZOs7z5jpTQAaZ_Hg)
